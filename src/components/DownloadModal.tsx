@@ -145,7 +145,7 @@ export default function DownloadModal({
                     required
                     value={formData.fullName}
                     onChange={handleChange}
-                    placeholder="e.g. Rahul Goyal"
+                    placeholder="e.g. John Doe"
                     className="w-full bg-transparent border-none text-xs sm:text-sm font-body outline-none placeholder:text-gray-300 py-1"
                   />
                 </div>
@@ -165,7 +165,7 @@ export default function DownloadModal({
                     required
                     value={formData.email}
                     onChange={handleChange}
-                    placeholder="e.g. rahul@example.com"
+                    placeholder="e.g. name@example.com"
                     className="w-full bg-transparent border-none text-xs sm:text-sm font-body outline-none placeholder:text-gray-300 py-1"
                   />
                 </div>

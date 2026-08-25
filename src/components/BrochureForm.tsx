@@ -127,7 +127,7 @@ export default function BrochureForm({ onAddLead, preselectedUnit }: BrochureFor
                 The Numbers Behind Your Next Address
               </h2>
               <p className="font-body text-sm text-white/80 leading-relaxed mx-auto lg:mx-0 max-w-md lg:max-w-none">
-                A closer look at the key details of Phase 2 — from its thoughtfully planned land parcel and plot options to its lifestyle offering and North Bengaluru location.
+                A closer look at the key details of Phase 2, from its thoughtfully planned land parcel and plot options to its lifestyle offering and North Bengaluru location.
               </p>
             </div>
 
@@ -215,7 +215,7 @@ export default function BrochureForm({ onAddLead, preselectedUnit }: BrochureFor
                           required
                           value={formData.email}
                           onChange={handleChange}
-                          placeholder="e.g. rahul@example.com"
+                          placeholder="e.g. name@example.com"
                           className="w-full bg-transparent border-none text-sm font-body outline-none placeholder:text-gray-300 py-1"
                         />
                       </div>

@@ -24,7 +24,6 @@ export default function MasterPlan({ onSelectUnit }: MasterPlanProps) {
           <h2 className="font-display text-2xl sm:text-3xl lg:text-[26px] xl:text-[30px] lg:whitespace-nowrap text-navy-primary font-semibold leading-tight">
             A Community Designed Around the Way You Live
           </h2>
-          <div className="h-[2px] w-16 bg-navy-primary mx-auto" />
           <p className="font-body text-sm md:text-base text-gray-text leading-relaxed">
             The master plan at Adarsh Savana Phase 2 brings together residential plots, landscaped greens and thoughtfully planned spaces for recreation, wellness and community living. From open parks and walking trails to the clubhouse, sports courts and leisure zones, every part of the community is connected by a carefully considered layout.
           </p>

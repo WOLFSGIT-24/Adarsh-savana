@@ -24,9 +24,8 @@ export default function Gallery() {
           <h2 className="font-display text-3xl sm:text-4xl text-navy-primary font-semibold leading-tight">
             A Glimpse Into Life at Savana
           </h2>
-          <div className="h-[2px] w-16 bg-navy-primary mx-auto" />
           <p className="font-body text-sm md:text-base text-gray-text leading-relaxed">
-            Explore the spaces that bring the Adarsh Savana lifestyle to life — from lush landscaped gardens and vibrant recreation zones to thoughtfully designed community spaces created for everyday moments, celebrations and connection.
+            Explore the spaces that bring the Adarsh Savana lifestyle to life, from lush landscaped gardens and vibrant recreation zones to thoughtfully designed community spaces created for everyday moments, celebrations and connection.
           </p>
         </div>
       </div>

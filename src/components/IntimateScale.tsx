@@ -49,7 +49,6 @@ export default function IntimateScale({ onRequestDownload }: IntimateScaleProps)
             <h2 className="font-display text-3xl sm:text-4xl text-navy-primary font-semibold leading-tight">
               Build Today. Create Tomorrow.
             </h2>
-            <div className="h-[2px] w-16 bg-navy-primary mx-auto lg:mx-0" />
 
             {/* Mobile Only Responsive Image */}
             <div className="lg:hidden w-full my-4">
@@ -57,7 +56,7 @@ export default function IntimateScale({ onRequestDownload }: IntimateScaleProps)
             </div>
 
             <p className="font-body text-sm md:text-base text-gray-text leading-relaxed pt-2">
-              A plot is more than a piece of land. It is the freedom to build your home the way you want, when you want — while creating an asset that can become part of your family’s future.
+              A plot is more than a piece of land. It is the freedom to build your home the way you want, when you want, while creating an asset that can become part of your family’s future.
             </p>
 
             {/* Highlights */}

@@ -34,7 +34,6 @@ export default function Amenities() {
           <h2 className="font-display text-2xl sm:text-3xl md:text-4xl text-navy-primary font-semibold leading-tight sm:whitespace-nowrap">
             An Elite Lifestyle, Beyond Your Front Door
           </h2>
-          <div className="h-[2px] w-16 bg-navy-primary mx-auto" />
           <p className="font-body text-sm md:text-base text-gray-text leading-relaxed max-w-2xl mx-auto">
             Adarsh Savana brings together spaces designed for recreation, wellness, connection and everyday enjoyment. From active sports and fitness zones to tranquil gardens, children's spaces and community areas, there’s something thoughtfully planned for every member of the family.
           </p>

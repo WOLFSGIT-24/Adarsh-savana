@@ -35,7 +35,6 @@ export default function Location({ onOpenEnquiry }: LocationProps) {
               <h2 className="font-display text-2xl sm:text-3xl lg:text-[28px] xl:text-[32px] sm:whitespace-nowrap text-navy-primary font-semibold leading-tight mt-4">
                 Well Connected to What Matters
               </h2>
-              <div className="h-[2px] w-16 bg-navy-primary mx-auto lg:mx-0 mb-6 mt-4" />
             </div>
 
             {/* Mobile Only Google Map */}
