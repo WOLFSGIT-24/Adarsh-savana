@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Owners';
+  src: url('/Owners Font/fonnts.com-Owners.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Owners';
+  src: url('/Owners Font/fonnts.com-Owners_Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Owners';
+  src: url('/Owners Font/fonnts.com-Owners_Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Owners';
+  src: url('/Owners Font/fonnts.com-Owners_Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Utile';
+  src: url('/Utile Font/Utile-Regular-GFXTRA.COM-iF66f3bd3b42c35.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Utile';
+  src: url('/Utile Font/Utile-Bold-GFXTRA.COM-iF66f3bd3acea1d.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@theme {
+  /* Primary Colours */
+  --color-navy-dark: #0F2D4F;
+  --color-navy-primary: #0F2D4F;
+  --color-navy-light: #a5b7cf;
+  
+  /* Warm Off-whites (Secondary Colours) */
+  --color-champagne: #dcd3c2;
+  --color-marble: #f4f3ee;
+  --color-gray-text: #494949;
+  --color-brand-stone-beige: #c5b9ad;
+  
+  /* Soft Blues (Secondary Colours) */
+  --color-gold: #bcc9da;
+  --color-gold-dark: #a5b7cf;
+  --color-bronze: #a5b7cf;
+  
+  /* High contrast reading colors */
+  --color-charcoal: #494949;
+  
+  --font-display: "Owners", sans-serif;
+  --font-body: "Utile", sans-serif;
+  
+  --animate-fade-in: fade-in 0.8s ease-out;
+  --animate-slide-up: slide-up 0.8s ease-out;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-marble);
+  color: var(--color-charcoal);
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-navy-primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-navy-dark);
+}
