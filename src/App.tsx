@@ -84,16 +84,17 @@ export default function App() {
     };
 
     // Post to Make.com Webhook
-    fetch("https://hook.us1.make.com/2bmmq21zo8ocu9itedtq5oyhu5sg5zad", {
+    fetch("https://hook.us1.make.com/riewdxajl2rhxc812ot41xx25x7gu4y7", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
         id: newLead.id,
-        fullName: newLead.fullName,
+        name: newLead.fullName,
         email: newLead.email,
         phone: newLead.phone,
+        date: newLead.preferredDate || "",
         source: newLead.source,
         notes: newLead.notes || "",
         submittedAt: isoTimestamp,
